@@ -1,0 +1,28 @@
+/* @media (max-width: 992px){
+    .col-lg-5 {
+      width: 400px !important;
+      justify-content: center;
+    }
+  } */
+ @media only screen and (max-width: 480px) {
+  .calculator form {
+    width: 100%;
+  }
+
+  .calculator form input {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+  }
+
+  .calculator form .display input {
+    font-size: 20px;
+  }
+
+  #equal {
+    width: 125px;
+  }
+  form .display input{
+    font-size: 42px !important;
+  }
+}
